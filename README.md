@@ -50,7 +50,8 @@ The UDP Pinger project was created to address a gap in testing UDP connections. 
 •	Create a User-Friendly Tool: With the integration of a web-based interface, this project makes network performance testing more accessible to non-technical users.
 
 # Project Structure and Workflow
- 
+
+![Monosnap UDP Pinger - Google Chrome 2024-11-23 20](https://github.com/user-attachments/assets/b69059e0-ae01-4a46-9f0a-40948d71d41a)
 •	Client-Side: The frontend of the UDP Pinger uses HTML, CSS, and JavaScript. The user interacts with a button to initiate the ping, and the results are dynamically updated on the web page.
 •	Server-Side: The backend, written in Python using Flask, handles the incoming requests from the frontend and processes them. It uses the udp_pinger_client.py script to ping the server and retrieve the results, which are then sent back to the frontend in JSON format.
 •	UDP Communication: The actual UDP communication happens between the client (running on the user’s local machine) and the server, where the client sends ping requests, and the server responds. The time taken for each round-trip is recorded and displayed.
